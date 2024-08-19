@@ -2,7 +2,7 @@ name: Build dcgm-exporter
 
 on:
   release:
-    types: created
+    types: published
 
 env:
   DCGM_EXPORTER_VERSION: '3.3.6-3.4.2'
