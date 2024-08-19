@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: NVIDIA/dcgm-exporter
-          ref: tags/${{ env.DCGM_EXPORTER_VERSION }}
+          ref: ${{ env.DCGM_EXPORTER_VERSION }}
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
